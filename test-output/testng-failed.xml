@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestAWS.CreateBucket">
+      <class name="TestAWS.UploadExcel_ReadExcel_DeleteExcel">
         <methods>
-          <include name="testCreateBucket3"/>
+          <include name="download"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestAWS.CreateBucket -->
+      </class> <!-- TestAWS.UploadExcel_ReadExcel_DeleteExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

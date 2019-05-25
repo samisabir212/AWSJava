@@ -17,7 +17,7 @@ public class UploadDirectory {
 	
 	
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void testUploadDirectoryToBucket() throws AmazonClientException, InterruptedException {
 		
 		BasicAWSCredentials awsCreds = new BasicAWSCredentials(AWSCredentials.access_key_id,
@@ -25,8 +25,8 @@ public class UploadDirectory {
 		//AmazonS3Client s3Client = new AmazonS3Client(awsCreds);
 
 		String bucketName = "sami1556332861486";
-		String key_prefix = "automation2";
-		String file_PAth = "/Users/sami/Desktop/Automation/TransferMe2";
+		String key_prefix = "TestData";
+		String file_PAth = "/Users/sami/Desktop/Automation/sidrissi/CucumberJenkins/Properties";
 		boolean recursive = false;
 		TransferManager transfer = new TransferManager(awsCreds);
 		

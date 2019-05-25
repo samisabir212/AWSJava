@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1055" started-at="2019-04-27T03:18:12Z" finished-at="2019-04-27T03:18:14Z">
+  <suite name="Default suite" duration-ms="1146" started-at="2019-05-07T04:42:54Z" finished-at="2019-05-07T04:42:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1055" started-at="2019-04-27T03:18:12Z" finished-at="2019-04-27T03:18:14Z">
-      <class name="TestAWS.DeleteBucket">
-        <test-method status="PASS" signature="testDeleteBucket()[pri:0, instance:TestAWS.DeleteBucket@754ba872]" name="testDeleteBucket" duration-ms="1042" started-at="2019-04-26T23:18:12Z" finished-at="2019-04-26T23:18:14Z">
+    <test name="Default test" duration-ms="1146" started-at="2019-05-07T04:42:54Z" finished-at="2019-05-07T04:42:55Z">
+      <class name="TestAWS.UploadExcel_ReadExcel_DeleteExcel">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestAWS.UploadExcel_ReadExcel_DeleteExcel@4d41cee]" name="beforeTest" is-config="true" duration-ms="652" started-at="2019-05-07T00:42:54Z" finished-at="2019-05-07T00:42:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteBucket -->
-      </class> <!-- TestAWS.DeleteBucket -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="download()[pri:0, instance:TestAWS.UploadExcel_ReadExcel_DeleteExcel@4d41cee]" name="download" duration-ms="484" started-at="2019-05-07T00:42:55Z" finished-at="2019-05-07T00:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- download -->
+      </class> <!-- TestAWS.UploadExcel_ReadExcel_DeleteExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
